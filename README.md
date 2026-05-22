@@ -300,7 +300,7 @@ Add screenshots after running locally:
 
 ## Resume Bullet Point
 
-Built an AI-powered software deployment risk monitoring platform that analyzes release details, calculates deployment risk scores, generates Gemini-powered rollout recommendations, simulates staged rollouts, and tracks incidents using Next.js, TypeScript, Python, FastAPI, MongoDB, and Gemini API.
+Built AI-Powered Software Deployment Risk Monitoring Platform, a full-stack portfolio project that analyzes release details, calculates deployment risk scores, generates Gemini-powered rollout recommendations, simulates staged rollouts, and tracks incidents using Next.js, TypeScript, Python, FastAPI, MongoDB, and Gemini API.
 
 ## Interview Explanation
 

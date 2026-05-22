@@ -2,6 +2,11 @@
 
 A professional Next.js + Python FastAPI + MongoDB portfolio project for evaluating deployment risk, generating structured AI release analysis, simulating rollout health, and tracking incidents.
 
+## Live Demo
+
+- Frontend: https://ai-powered-software-deployment-risk.vercel.app/
+- Backend API health: https://ai-deployment-risk-monitoring-api.onrender.com/api/health
+
 ## Problem Statement
 
 Software teams often ship releases with scattered context: changed modules, test results, rollback plans, business impact, known issues, and rollout health live in different places. That makes it hard for developers and release managers to decide whether a deployment is safe.

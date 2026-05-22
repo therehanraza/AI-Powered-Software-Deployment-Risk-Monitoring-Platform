@@ -13,7 +13,6 @@ class Settings:
     gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-3-flash-preview")
     fallback_gemini_model: str = os.getenv("FALLBACK_GEMINI_MODEL", "gemini-2.5-flash-lite")
-    node_env: str = os.getenv("NODE_ENV", "development")
     client_url: str = os.getenv("CLIENT_URL", "http://localhost:3000")
 
 

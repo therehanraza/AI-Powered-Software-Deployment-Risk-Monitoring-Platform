@@ -50,6 +50,13 @@ export function AppShell({ children, title, subtitle, action }: { children: Reac
           </div>
           <p className="mt-2 text-xs leading-5 text-app-muted">Release safety checks, rollout health, and AI reviews in one workspace.</p>
         </div>
+        <div className="mt-3 rounded-lg border border-app-cyan/30 bg-app-cyan/10 p-3">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-app-cyan">
+            <Bot className="h-3.5 w-3.5" />
+            Demo Mode
+          </div>
+          <p className="mt-2 text-xs leading-5 text-app-muted">Mock AI fallback keeps the public demo usable on the free tier.</p>
+        </div>
         <nav className="mt-6 grid gap-1">
           {nav.map((item) => {
             const Icon = item.icon;
@@ -73,6 +80,10 @@ export function AppShell({ children, title, subtitle, action }: { children: Reac
             </div>
             <div className="flex items-center gap-3">
               {action}
+              <div className="hidden items-center gap-2 rounded-lg border border-app-cyan/30 bg-app-cyan/10 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-app-cyan xl:flex">
+                <Bot className="h-3.5 w-3.5" />
+                Demo Mode
+              </div>
               <div className="hidden rounded-lg border border-app-border bg-app-card px-3 py-2 text-sm md:block">
                 <p className="font-medium">{user?.name || "Demo User"}</p>
                 <p className="text-xs capitalize text-app-muted">{user?.role?.replaceAll("_", " ") || "admin"}</p>

@@ -59,6 +59,21 @@ AI:
 - Fallback model: `gemini-2.5-flash-lite`
 - Mock AI fallback for a fully functional free demo
 
+## System Architecture
+
+```mermaid
+flowchart LR
+  U["User / Release Manager"] --> F["Next.js + TypeScript Frontend"]
+  F -->|REST API| B["Python FastAPI Backend"]
+  B --> DB["MongoDB Atlas M0"]
+  B --> R["Rule-Based Risk Scoring"]
+  B --> A["Gemini API"]
+  A --> M["Mock AI Fallback"]
+  R --> B
+  M --> B
+  B --> F
+```
+
 ## AI Architecture
 
 The backend calls Gemini when `GEMINI_API_KEY` exists. It first tries `GEMINI_MODEL=gemini-3-flash-preview`. If that fails, it tries `FALLBACK_GEMINI_MODEL=gemini-2.5-flash-lite`. If the key is missing or both Gemini calls fail, it returns structured Mock AI output.

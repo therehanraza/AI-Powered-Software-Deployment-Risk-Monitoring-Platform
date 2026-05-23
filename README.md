@@ -2,10 +2,22 @@
 
 A professional Next.js + Python FastAPI + MongoDB portfolio project for evaluating deployment risk, generating structured AI release analysis, simulating rollout health, and tracking incidents.
 
+A SaaS-style DevOps dashboard for AI-assisted release readiness, rollout safety, and incident visibility.
+
 ## Live Demo
 
 - Frontend: https://ai-powered-software-deployment-risk.vercel.app/
 - Backend API health: https://ai-deployment-risk-monitoring-api.onrender.com/api/health
+
+## Portfolio Highlights
+
+- Full-stack architecture with a Next.js/TypeScript frontend and Python FastAPI backend
+- JWT authentication, protected dashboard routes, and seeded demo users
+- Rule-based risk scoring with clear 0-100 release safety levels
+- Structured Gemini-ready AI reviews with Mock AI fallback for a free public demo
+- MongoDB Atlas persistence for releases, AI reviews, incidents, rollout events, and audit logs
+- Deployed on free-tier services: Vercel, Render, MongoDB Atlas M0, GitHub, and Gemini free tier
+- Backend tests for risk scoring and AI fallback behavior
 
 ## Problem Statement
 

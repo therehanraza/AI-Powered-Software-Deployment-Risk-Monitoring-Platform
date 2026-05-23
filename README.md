@@ -202,6 +202,20 @@ python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 5000 --app-dir bac
 
 6. Open `http://localhost:3000`.
 
+## Testing
+
+Run backend tests from the project root:
+
+```bash
+PYTHONPATH=backend python -m pytest backend/tests -q
+```
+
+On Windows PowerShell:
+
+```powershell
+$env:PYTHONPATH="backend"; python -m pytest backend/tests -q
+```
+
 ## MongoDB Atlas Setup
 
 1. Create a free MongoDB Atlas account.

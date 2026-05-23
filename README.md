@@ -291,16 +291,33 @@ Render free services may sleep. The frontend has loading and error states while 
 
 ## Screenshots
 
-Add screenshots after running locally:
+### Landing Page
 
-- Landing page
-- Dashboard
-- Create release
-- Release details
-- Rollout monitor
-- Incidents
-- AI reviews
-- Settings
+![Landing page](docs/screenshots/landing.png)
+
+### Dashboard
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Release Inventory
+
+![Release inventory](docs/screenshots/releases.png)
+
+### Create Release
+
+![Create release](docs/screenshots/create-release.png)
+
+### Release Details
+
+![Release details](docs/screenshots/release-details.png)
+
+### Rollout Monitor
+
+![Rollout monitor](docs/screenshots/rollout.png)
+
+### AI Reviews
+
+![AI reviews](docs/screenshots/ai-reviews.png)
 
 ## Resume Bullet Point
 
